@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/robocup2018/catkin_ws/devel/include",
+        "/opt/ros/kinetic/include",
+        "/home/robocup2018/catkin_ws/src/beginner_tutorials/include",
+        "/home/robocup2018/catkin_ws/src/oit_dynamixel/include",
+        "/home/robocup2018/catkin_ws/src/oit_navigation/include",
+        "/home/robocup2018/catkin_ws/src/oit_pololu_tic_controller/include",
+        "/home/robocup2018/catkin_ws/src/oit_roboclaw/include",
+        "/home/robocup2018/catkin_ws/src/oit_robocup/include",
+        "/home/robocup2018/catkin_ws/src/rsj_2017_servo_control/include",
+        "/home/robocup2018/catkin_ws/src/rsj_pointcloud_test/include",
+        "/home/robocup2018/catkin_ws/src/rsj_pointcloud_to_laserscan/include",
+        "/home/robocup2018/catkin_ws/src/smach_tutorials/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}
