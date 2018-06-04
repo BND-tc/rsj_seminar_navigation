@@ -14,6 +14,7 @@
 	<node pkg="ypspur_ros" type="ypspur_ros" name="ypspur_ros">
 		<param name="port" value="$(arg port_robot)" />
 		<param name="param_file" value="$(arg robot_param)" />
+		<param name="compatible" value="1"/>
 		<remap from="~/odom" to="/odom" />
 	</node>
 	<node pkg="urg_node" type="urg_node" name="urg_node">
@@ -43,7 +44,6 @@
 		<rosparam file="$(find rsj_seminar_navigation)/config/costmap_global.yaml" command="load" />
 		<rosparam file="$(find rsj_seminar_navigation)/config/planner_local.yaml" command="load" />
 		<rosparam file="$(find rsj_seminar_navigation)/config/planner_global.yaml" command="load" />
-		<remap from="/cmd_vel" to="/ypspur_ros/cmd_vel" />
 	</node>
 		
 	<node pkg="rviz" type="rviz" args="-d '$(find rsj_seminar_navigation)/config/rviz/navigation.rviz'" name="visualizer" respawn="true" />
