@@ -95,7 +95,7 @@ Visualization Manager:
       Length: 0.25
       Name: Odometry
       Position Tolerance: 0.05
-      Topic: /ypspur_ros/odom
+      Topic: /odom
       Value: true
     - Class: rviz/Axes
       Enabled: true
